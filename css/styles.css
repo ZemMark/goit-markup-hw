@@ -1,4 +1,9 @@
-a[href="./index.html"]:hover {
-    color: tomato;
-    
+
+
+body {
+    font-family: 'Roboto';
+    background-color: #F5F5F5;
+}
+.buttons {
+    cursor: pointer; ;
 }

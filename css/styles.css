@@ -4,7 +4,29 @@
 /* адресС АЛЕ НЕ КАРТА З АДРЕСОЮ БО АДРЕСА ПРОСТО БІЛА rgba(255, 255, 255, 0.6) */
 /* другорядний колір фону #F5F4FA */
 
+:root {
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --title-color: rgba(33, 33, 33, 1);
+    --accent-color: #2196F3;
+    --button-color: var(--title-color);
+    --button-background: #F5F4FA;
+    --bgc-secondary: #F5F4FA;
+}
 
+.body {
+    color: rgba(33, 33, 33, 1);
+    background-color: #f5f5f5;
+    font-family: 'Roboto'
+}
+
+p {
+    color: rgba(117, 117, 117, 1);
+}
+
+/* загальна стилізація кнопок */
+.button {
+    cursor: pointer;
+}
 /* стилізація кнопок на сторінці портфоліо */
 
 .button.primaru {
@@ -22,13 +44,17 @@
 .button.secondary{
     background-color: var(--accent-color);
     color: rgba(255, 255, 255, 1);
-    font-weight: 700;
-    font-size: 16px;
+    /* position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px; */
 }
 
 /* стилізація хедера */
 .logo{
     color: rgba(0, 0, 0, 1);
+    
     
 }
 /* .logo:visited{
@@ -38,7 +64,24 @@
     color: rgba(33, 150, 243, 1);
 }
 
-.nav-contact .contact{
+/* оформлення шрифра для лого в футурі та хедері */
+.logo, .footer-logo{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    /* font-family: Oleo Script;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left; */
+}
+
+.nav-contacts .contact{
     color: rgba(117, 117, 117, 1);
 }
 .contact:hover,
@@ -63,9 +106,23 @@
 .hero,
 .footer {
     background-color: #2F303A;
+
 }
+/* .hero{
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+} */
 .hero-title{
     color: rgba(255, 255, 255, 1);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+   
 }
 
 
@@ -102,4 +159,9 @@
 }
 .portfolio  a{
     color: var(--title-color);
+}
+
+/* оформлення фону для секції початкової сторінки */
+.team{
+    background-color: var(--bgc-secondary);
 }

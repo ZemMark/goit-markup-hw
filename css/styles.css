@@ -13,17 +13,18 @@
     --bgc-secondary: #F5F4FA;
 }
 
-.body {
+body {
     color: rgba(33, 33, 33, 1);
     background-color: #f5f5f5;
-    font-family: 'Roboto', sans-serif
+    font-family: Roboto, sans-serif
     
 }
-
+/* параграфи в файлі index.html */
 p {
     color: rgba(117, 117, 117, 1);
     font-weight: 400;   
     font-size:  14px; 
+    line-height: 1.7px;
     
 }
 
@@ -56,7 +57,7 @@ p {
 .button.secondary{
     background-color: var(--accent-color);
     color: rgba(255, 255, 255, 1);
-    line-height: 30px ;
+    line-height: 1.875px ;
     font-weight: 700;
     /* position: absolute;
     width: 216px;
@@ -136,7 +137,7 @@ p {
     color: rgba(255, 255, 255, 1);
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    /* line-height: 1.36px; */
     letter-spacing: 0.06em;
     text-align: center;
    
@@ -149,6 +150,7 @@ p {
 /* заголовки блоку "пеерваги" головної сторінки  */
 .features-title{
     font-size: 14px;
+    line-height: 1.1428px;
 }
 /* посилання в футері */
 .map{
@@ -178,6 +180,8 @@ p {
     color:rgba(33, 33, 33, 1);
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.2px;
+    
     /* text-align: center; */
 }
 .portfolio  a{
@@ -208,5 +212,14 @@ ul{
 }
 .portfolio p{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875px;
 }
+.portfolio h2{
+    color: rgba(33, 33, 33, 1);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+}
+/* .footer-logo {
+    margin-right: px;
+} */

@@ -1,116 +1,181 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-    
-    
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <header>
-        <nav class="nav">
-            <a href="./index.html" lang="en" class="logo"><span class="logo-link">Web</span><span></span>Studio</a>
-            <ul class="nav-links list">
-                <li><a href="./index.html" class="link ">Студія</a></li>
-                <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-                <li><a href="" class="link ">Контакти</a></li>
-            </ul>
-        </nav>
-        <ul class="nav-contacts list">
-            <li><a href="mailto:info@devstudio.com" class="contact link link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contact link link">+38 096 111 11 11</a></li>
+      <nav class="nav">
+        <a href="./index.html" lang="en" class="logo"
+          ><span class="logo-link">Web</span><span></span>Studio</a
+        >
+        <ul class="nav-links list">
+          <li><a href="./index.html" class="link">Студія</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+          <li><a href="" class="link">Контакти</a></li>
         </ul>
-    
+      </nav>
+      <ul class="nav-contacts list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact link link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contact link link"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
     </header>
-<main>
-        <section>
-            <!-- Портфоліо -->
-            <h1 class="hide">Портфоліо</h1><h1 class="hide">Портфоліо</h1>
-            <ul class="buttons link">
-                <li><button type="button" class="button primaru">Усі</button></li>
-                <li><button type="button" class="button primaru">Веб-сайти</button></li>
-                <li><button type="button" class="button primaru">Додатки</button></li>
-                <li><button type="button" class="button primaru">Дизайн</button></li>
-                <li><button type="button" class="button primaru">Маркетинг</button></li>
-            </ul>
-        </section>
-        <section>
-
-            <ul class="portfolio">
-                <li>
-                    <a href="" class="portfolio-link link">
-                        <img src="./images/portfolio/laptop.jpg" alt="ноутбук з зображенням веб-сторінки" width="370">
-                        <h2>Технокряк</h2>
-                        <p class="portfolio-subtitle">Веб-сайт</p>
-                    </a>
-                    
-                    
-                    
-                </li>
-                <li>
-                    <img src="./images/portfolio/basketball.jpg" alt="два хлоаця грають в баскетбол" width="370">
-                    <!--не знаю як змінити мову на англійську, якщо в рядку перше слово "постер" українською  -->
-                    <h2><a href="" class="portfolio-link link">Постер New Orlean vs Golden Star</a></h2>
-                    <p class="portfolio-subtitle">Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/seafood.jpg" alt="логотип ресторану з однотонним лососем на задньому фоні" width="370">
-                    <!-- те саме питання з мовою заголовку -->
-                    <h2><a href="" class="portfolio-link link">Ресторан Seafood</a></h2>
-                    <p class="portfolio-subtitle">Додаток</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/headphones.jpg" alt="навушники" width="370">
-                    <h2><a href="" class="portfolio-link link">Проєкт Prime</a></h2>
-                    <p class="portfolio-subtitle">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/boxes.jpg" alt="дві коробки" width="370">
-                    <h2><a href="" class="portfolio-link link">Проєкт Boxes</a></h2>
-                    <p class="portfolio-subtitle">Додаток</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/iMac.jpg" alt="комп'ютер відомої марки" width="370">
-                    <h2><a href="" class="portfolio-link link" lang="en">Inspiration has no Borders</a></h2>
-                    <p class="portfolio-subtitle">Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/book.jpg" alt="журнал" width="370">
-                    <h2><a href="" class="portfolio-link link">Видання Limited Edition</a></h2>
-                    <p class="portfolio-subtitle">Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/lab.jpg" alt="картонний ярлик з логотипом проєкту" width="370">
-                    <h2><a href="" class="portfolio-link link">Проєкт LAB</a></h2>
-                    <p class="portfolio-subtitle">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/hands.jpg" alt="руки над клавіатурою ноутбуку" width="370">
-                    <h2><a href="" class="portfolio-link link">Growing Business</a></h2>
-                    <p class="portfolio-subtitle">Додаток</p>
-                </li>
-        
-            </ul>
-        </section>
-</main>
+    <main>
+      <section>
+        <!-- Портфоліо -->
+        <h1 class="hide">Портфоліо</h1>
+        <h1 class="hide">Портфоліо</h1>
+        <ul class="buttons link">
+          <li><button type="button" class="button primaru">Усі</button></li>
+          <li>
+            <button type="button" class="button primaru">Веб-сайти</button>
+          </li>
+          <li><button type="button" class="button primaru">Додатки</button></li>
+          <li><button type="button" class="button primaru">Дизайн</button></li>
+          <li>
+            <button type="button" class="button primaru">Маркетинг</button>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul class="portfolio">
+          <li>
+            <a href="" class="portfolio-link link">
+              <img
+                src="./images/portfolio/laptop.jpg"
+                alt="ноутбук з зображенням веб-сторінки"
+                width="370"
+              />
+              <h2>Технокряк</h2>
+              <p class="portfolio-subtitle">Веб-сайт</p>
+            </a>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/basketball.jpg"
+              alt="два хлоаця грають в баскетбол"
+              width="370"
+            />
+            <!--не знаю як змінити мову на англійську, якщо в рядку перше слово "постер" українською  -->
+            <h2>
+              <a href="" class="portfolio-link link"
+                >Постер New Orlean vs Golden Star</a
+              >
+            </h2>
+            <p class="portfolio-subtitle">Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/seafood.jpg"
+              alt="логотип ресторану з однотонним лососем на задньому фоні"
+              width="370"
+            />
+            <!-- те саме питання з мовою заголовку -->
+            <h2><a href="" class="portfolio-link link">Ресторан Seafood</a></h2>
+            <p class="portfolio-subtitle">Додаток</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/headphones.jpg"
+              alt="навушники"
+              width="370"
+            />
+            <h2><a href="" class="portfolio-link link">Проєкт Prime</a></h2>
+            <p class="portfolio-subtitle">Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/boxes.jpg"
+              alt="дві коробки"
+              width="370"
+            />
+            <h2><a href="" class="portfolio-link link">Проєкт Boxes</a></h2>
+            <p class="portfolio-subtitle">Додаток</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/iMac.jpg"
+              alt="комп'ютер відомої марки"
+              width="370"
+            />
+            <h2>
+              <a href="" class="portfolio-link link" lang="en"
+                >Inspiration has no Borders</a
+              >
+            </h2>
+            <p class="portfolio-subtitle">Веб-сайт</p>
+          </li>
+          <li>
+            <img src="./images/portfolio/book.jpg" alt="журнал" width="370" />
+            <h2>
+              <a href="" class="portfolio-link link">Видання Limited Edition</a>
+            </h2>
+            <p class="portfolio-subtitle">Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/lab.jpg"
+              alt="картонний ярлик з логотипом проєкту"
+              width="370"
+            />
+            <h2><a href="" class="portfolio-link link">Проєкт LAB</a></h2>
+            <p class="portfolio-subtitle">Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/hands.jpg"
+              alt="руки над клавіатурою ноутбуку"
+              width="370"
+            />
+            <h2><a href="" class="portfolio-link link">Growing Business</a></h2>
+            <p class="portfolio-subtitle">Додаток</p>
+          </li>
+        </ul>
+      </section>
+    </main>
     <footer class="footer">
-        <a lang="en" href="./index.html" class="footer-logo"><span class="logo-link">Web</span>Studio</a>
-        <address class="address">
-    
-            <ul class="address-links">
-                <li><a href="https://goo.gl/maps/rEYh6PdM1hheBsNV8" class="link" target="_blank" rel="nooper noreferrer nofollow"><span
-                            class="map">м. Київ, пр-т Лесі Українки, 26</span></a></li>
-                <li><a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="contact link">+38 096 111 11 11</a></li>
-            </ul>
-    
-        </address>
-        
+      <a lang="en" href="./index.html" class="footer-logo"
+        ><span class="logo-link">Web</span>Studio</a
+      >
+      <address class="address">
+        <ul class="address-links">
+          <li>
+            <a
+              href="https://goo.gl/maps/rEYh6PdM1hheBsNV8"
+              class="link"
+              target="_blank"
+              rel="nooper noreferrer nofollow"
+              ><span class="map">м. Київ, пр-т Лесі Українки, 26</span></a
+            >
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="contact link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="contact link"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
     </footer>
-    
-</body>
+  </body>
 </html>

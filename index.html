@@ -9,19 +9,25 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav class="nav">
+      <nav class="nav container">
         <a href="./index.html" lang="en" class="logo"
           ><span class="logo-link">Web</span><span></span>Studio</a
         >
-        <ul class="nav-links list">
-          <li><a href="./index.html" class="link current">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="" class="link">Контакти</a></li>
-        </ul>
+        <div class="inline-box-links">
+          <ul class="nav-links list">
+            <li><a href="./index.html" class="link current">Студія</a></li>
+            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li><a href="./test.html" class="link">Контакти</a></li>
+          </ul>
+        </div>
       </nav>
       <ul class="nav-contacts list">
         <li>
@@ -37,41 +43,45 @@
 
     <main>
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="hero-title container">
+          Ефективні рішення для вашого бізнесу
+        </h1>
         <button type="button" class="button secondary">Замовити послугу</button>
       </section>
-      <section>
+      <section class="">
         <!-- переваги -->
         <h2 class="features hide">переваги</h2>
-        <ul>
-          <li>
-            <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">ПЛАНУВАННЯ</h3>
-            <p>
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="list">
+            <li>
+              <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p>
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p>
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title">ПЛАНУВАННЯ</h3>
+              <p>
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p>
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="section">
         <h2 class="section-title">Чим ми займаємося</h2>
@@ -95,6 +105,7 @@
           </li>
         </ul>
       </section>
+
       <section class="team bgc">
         <h2 class="section-title">Наша команда</h2>
         <ul>
@@ -142,7 +153,7 @@
         ><span class="logo-link">Web</span>Studio</a
       >
       <address class="address">
-        <ul class="address-links">
+        <ul class="address-links list">
           <li>
             <a
               href="https://goo.gl/maps/rEYh6PdM1hheBsNV8"

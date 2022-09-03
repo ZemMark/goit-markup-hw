@@ -135,14 +135,6 @@ h1, h2, h3, h4, h5, h6{
     letter-spacing: 0.03em;
     text-align: left; */
 }
-.container{
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  outline: 2px sloid red;
-}
 
 .nav-contacts .contact {
   display: inline-block;
@@ -168,14 +160,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* стилізація блоку герой */
 
-.hero.container
-/* .hero{
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-} */
+
 .hero-title {
   color: #fff;
   font-size: 44px;
@@ -187,7 +172,7 @@ h1, h2, h3, h4, h5, h6{
 
 .hero {
   text-align: center;
-  outline: 5px solid red;
+  /* outline: 5px solid red; */
 }
 /* заголовки блоку "перваги" головної сторінки  */
 .features-title {
@@ -281,14 +266,9 @@ ul {
     margin-right: px;
 } */
 
-.container{
-  /* display: inline-block; */
-  width: 1162px;
-  padding: 0 15;
 
-}
 .section{
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   overflow: scroll;
 }
 

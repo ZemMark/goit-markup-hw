@@ -34,9 +34,8 @@ body {
 }
 
 /* параграфи в файлі index.html */
-p {
+body .text {
   color: rgba(117, 117, 117, 1);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -57,7 +56,7 @@ p {
 .button.primaru {
   font-family: inherit;
   background-color: var(--button-background);
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -104,12 +103,11 @@ p {
 }
 /* cстилізація всіх заголовків */
 h1, h2, h3, h4, h5, h6{
-  font-style: 400;
   margin: 0px;
 }
 .hero>h1{
   color: #fff;
-  max-width: 696;
+  width: 696px;
 }
 
 
@@ -128,18 +126,15 @@ h1, h2, h3, h4, h5, h6{
   margin-top: 0px;
   margin-bottom: 0px;
 
-  /* font-family: Oleo Script;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0.03em;
-    text-align: left; */
+  
 }
 
 .nav-contacts .contact {
-  display: inline-block;
   color: rgba(117, 117, 117, 1);
   font-weight: 500;
+  line-height: 1.17px;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
 .contact:hover,
 .contact:focus {
@@ -149,6 +144,9 @@ h1, h2, h3, h4, h5, h6{
 .nav-links .link {
   color: rgba(33, 33, 33, 1);
   font-weight: 500;
+  line-height: 1.17;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
 .nav-links .link:hover,
 .link:focus {
@@ -165,9 +163,10 @@ h1, h2, h3, h4, h5, h6{
   color: #fff;
   font-size: 44px;
   font-weight: 900;
-  /* line-height: 1.36px; */
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -193,17 +192,28 @@ address{
 /* посилання в футері */
 .map {
   color: #ffffff;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
 }
+
 .map:hover,
 .map:focus {
   color: #2196f3;
 }
 .address-links .contact {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .address-links .contact:hover,
 .contact:focus {
   color: #2196f3;
+  /* font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em; */
 }
 
 .footer-logo {
